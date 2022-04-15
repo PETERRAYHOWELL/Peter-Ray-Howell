@@ -16,7 +16,7 @@ namespace TheTravelGem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmInformationMagaritaville());
+            Application.Run(new FrmRestaurantListing());
         }
     }
 }

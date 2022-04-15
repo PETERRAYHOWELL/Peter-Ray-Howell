@@ -46,52 +46,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmBooking.cs">
+    <Compile Include="FrmRestaurantBooking.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmBooking.Designer.cs">
-      <DependentUpon>FrmBooking.cs</DependentUpon>
+    <Compile Include="FrmRestaurantBooking.Designer.cs">
+      <DependentUpon>FrmRestaurantBooking.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmInformationChillin.cs">
+    <Compile Include="FrmRestaurantInformationChillin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmInformationChillin.Designer.cs">
-      <DependentUpon>FrmInformationChillin.cs</DependentUpon>
+    <Compile Include="FrmRestaurantInformationChillin.Designer.cs">
+      <DependentUpon>FrmRestaurantInformationChillin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmInformationMagaritaville.cs">
+    <Compile Include="FrmRestaurantInformationMagaritaville.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmInformationMagaritaville.Designer.cs">
-      <DependentUpon>FrmInformationMagaritaville.cs</DependentUpon>
+    <Compile Include="FrmRestaurantInformationMagaritaville.Designer.cs">
+      <DependentUpon>FrmRestaurantInformationMagaritaville.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmInformationPotwah.cs">
+    <Compile Include="FrmRestaurantInformationPotwah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmInformationPotwah.Designer.cs">
-      <DependentUpon>FrmInformationPotwah.cs</DependentUpon>
+    <Compile Include="FrmRestaurantInformationPotwah.Designer.cs">
+      <DependentUpon>FrmRestaurantInformationPotwah.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmListing.cs">
+    <Compile Include="FrmRestaurantListing.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmListing.Designer.cs">
-      <DependentUpon>FrmListing.cs</DependentUpon>
+    <Compile Include="FrmRestaurantListing.Designer.cs">
+      <DependentUpon>FrmRestaurantListing.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmBooking.resx">
-      <DependentUpon>FrmBooking.cs</DependentUpon>
+    <EmbeddedResource Include="FrmRestaurantBooking.resx">
+      <DependentUpon>FrmRestaurantBooking.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmInformationChillin.resx">
-      <DependentUpon>FrmInformationChillin.cs</DependentUpon>
+    <EmbeddedResource Include="FrmRestaurantInformationChillin.resx">
+      <DependentUpon>FrmRestaurantInformationChillin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmInformationMagaritaville.resx">
-      <DependentUpon>FrmInformationMagaritaville.cs</DependentUpon>
+    <EmbeddedResource Include="FrmRestaurantInformationMagaritaville.resx">
+      <DependentUpon>FrmRestaurantInformationMagaritaville.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmInformationPotwah.resx">
-      <DependentUpon>FrmInformationPotwah.cs</DependentUpon>
+    <EmbeddedResource Include="FrmRestaurantInformationPotwah.resx">
+      <DependentUpon>FrmRestaurantInformationPotwah.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmListing.resx">
-      <DependentUpon>FrmListing.cs</DependentUpon>
+    <EmbeddedResource Include="FrmRestaurantListing.resx">
+      <DependentUpon>FrmRestaurantListing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
