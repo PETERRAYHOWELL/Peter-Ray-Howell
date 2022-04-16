@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmInformationTracksAndRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInformationTracksAndRecords.Designer.cs">
+      <DependentUpon>FrmInformationTracksAndRecords.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmRestaurantBooking.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,12 @@
     <Compile Include="FrmRestaurantInformationPotwah.Designer.cs">
       <DependentUpon>FrmRestaurantInformationPotwah.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmRestaurantInformatrionPastasInHeaven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRestaurantInformatrionPastasInHeaven.Designer.cs">
+      <DependentUpon>FrmRestaurantInformatrionPastasInHeaven.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmRestaurantListing.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmInformationTracksAndRecords.resx">
+      <DependentUpon>FrmInformationTracksAndRecords.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmRestaurantBooking.resx">
       <DependentUpon>FrmRestaurantBooking.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRestaurantInformationPotwah.resx">
       <DependentUpon>FrmRestaurantInformationPotwah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRestaurantInformatrionPastasInHeaven.resx">
+      <DependentUpon>FrmRestaurantInformatrionPastasInHeaven.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRestaurantListing.resx">
       <DependentUpon>FrmRestaurantListing.cs</DependentUpon>
