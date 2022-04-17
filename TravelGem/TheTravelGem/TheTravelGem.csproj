@@ -88,6 +88,12 @@
     <Compile Include="FrmRestaurantListing.Designer.cs">
       <DependentUpon>FrmRestaurantListing.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmRestaurantPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRestaurantPayment.Designer.cs">
+      <DependentUpon>FrmRestaurantPayment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmInformationTracksAndRecords.resx">
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRestaurantListing.resx">
       <DependentUpon>FrmRestaurantListing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRestaurantPayment.resx">
+      <DependentUpon>FrmRestaurantPayment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
