@@ -270,6 +270,11 @@ namespace TheTravelGem
                     PhoneNumber = TbPhone.Text
 
                 };
+
+                Form FrmPay = new FrmRestaurantPayment();
+                this.Hide();
+                FrmPay.ShowDialog();
+                this.Show();
             }
         }
 

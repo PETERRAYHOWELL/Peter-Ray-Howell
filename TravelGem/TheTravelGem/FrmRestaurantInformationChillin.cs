@@ -37,5 +37,13 @@ namespace TheTravelGem
         {
 
         }
+
+        private void BtnBooking_Click(object sender, EventArgs e)
+        {
+            Form Booking = new FrmRestaurantBooking();
+            this.Hide();
+            Booking.ShowDialog();
+            this.Show();
+        }
     }
 }

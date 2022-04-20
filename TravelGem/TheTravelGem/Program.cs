@@ -16,8 +16,7 @@ namespace TheTravelGem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-           
-            Application.Run(new FrmRestaurantPayment());
+            Application.Run(new FrmRestaurantListing());
         }
     }
 }

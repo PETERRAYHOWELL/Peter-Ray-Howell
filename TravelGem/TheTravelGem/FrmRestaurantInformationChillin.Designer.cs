@@ -63,8 +63,9 @@ namespace TheTravelGem
             // picBoxChillin
             // 
             this.picBoxChillin.Location = new System.Drawing.Point(0, 0);
+            this.picBoxChillin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picBoxChillin.Name = "picBoxChillin";
-            this.picBoxChillin.Size = new System.Drawing.Size(1048, 455);
+            this.picBoxChillin.Size = new System.Drawing.Size(699, 296);
             this.picBoxChillin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBoxChillin.TabIndex = 0;
             this.picBoxChillin.TabStop = false;
@@ -74,9 +75,10 @@ namespace TheTravelGem
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 628);
+            this.label1.Location = new System.Drawing.Point(8, 408);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(566, 200);
+            this.label1.Size = new System.Drawing.Size(432, 152);
             this.label1.TabIndex = 1;
             this.label1.Text = resources.GetString("label1.Text");
             // 
@@ -84,55 +86,62 @@ namespace TheTravelGem
             // 
             this.pnlChillinLogo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlChillinLogo.BackgroundImage")));
             this.pnlChillinLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlChillinLogo.Location = new System.Drawing.Point(418, 471);
+            this.pnlChillinLogo.Location = new System.Drawing.Point(279, 306);
+            this.pnlChillinLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlChillinLogo.Name = "pnlChillinLogo";
-            this.pnlChillinLogo.Size = new System.Drawing.Size(221, 109);
+            this.pnlChillinLogo.Size = new System.Drawing.Size(147, 71);
             this.pnlChillinLogo.TabIndex = 2;
             // 
             // BtnBooking
             // 
             this.BtnBooking.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBooking.Location = new System.Drawing.Point(64, 903);
+            this.BtnBooking.Location = new System.Drawing.Point(43, 587);
+            this.BtnBooking.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnBooking.Name = "BtnBooking";
-            this.BtnBooking.Size = new System.Drawing.Size(310, 40);
+            this.BtnBooking.Size = new System.Drawing.Size(207, 26);
             this.BtnBooking.TabIndex = 9;
             this.BtnBooking.Text = "Book Your Stay !";
             this.BtnBooking.UseVisualStyleBackColor = true;
+            this.BtnBooking.Click += new System.EventHandler(this.BtnBooking_Click);
             // 
             // panel1
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Location = new System.Drawing.Point(677, 628);
+            this.panel1.Location = new System.Drawing.Point(451, 408);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(130, 118);
+            this.panel1.Size = new System.Drawing.Size(87, 77);
             this.panel1.TabIndex = 10;
             // 
             // panel2
             // 
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Location = new System.Drawing.Point(837, 628);
+            this.panel2.Location = new System.Drawing.Point(558, 408);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(130, 118);
+            this.panel2.Size = new System.Drawing.Size(87, 77);
             this.panel2.TabIndex = 11;
             // 
             // panel3
             // 
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Location = new System.Drawing.Point(677, 772);
+            this.panel3.Location = new System.Drawing.Point(451, 502);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(130, 118);
+            this.panel3.Size = new System.Drawing.Size(87, 77);
             this.panel3.TabIndex = 4;
             // 
             // panel4
             // 
             this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel4.Location = new System.Drawing.Point(837, 772);
+            this.panel4.Location = new System.Drawing.Point(558, 502);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(130, 118);
+            this.panel4.Size = new System.Drawing.Size(87, 77);
             this.panel4.TabIndex = 4;
             // 
             // button1
@@ -140,19 +149,20 @@ namespace TheTravelGem
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(677, 963);
+            this.button1.Location = new System.Drawing.Point(451, 626);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(288, 40);
+            this.button1.Size = new System.Drawing.Size(192, 26);
             this.button1.TabIndex = 12;
             this.button1.Text = "more images";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // FrmRestaurantInformationChillin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1048, 1410);
+            this.ClientSize = new System.Drawing.Size(699, 688);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -162,6 +172,7 @@ namespace TheTravelGem
             this.Controls.Add(this.pnlChillinLogo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.picBoxChillin);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmRestaurantInformationChillin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chillin";
