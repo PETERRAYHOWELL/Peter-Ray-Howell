@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using TheTravelGem.Models;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -28,6 +29,21 @@ namespace TheTravelGem
         private void BtnConfirm_Click(object sender, EventArgs e)
         {
             ValidateForm();
+            if(string.IsNullOrWhiteSpace(ValiCardNumber.Text)&&
+                string.IsNullOrWhiteSpace(ValiCVC.Text) &&
+                string.IsNullOrWhiteSpace(ValiMMYY.Text) &&
+                string.IsNullOrWhiteSpace(ValiNameOnCard.Text))
+            {
+                //To Be Save to a Database
+                Payment ComfirmPayment = new Payment
+                {
+                    Created = DateTime.Now,
+                    CardNumber = Int32.Parse(txtCardNumber.Text),
+                    CVC = Int32.Parse(txtCVC.Text),
+                    ExpirationOfCard = DateTime.Parse(txtMMYY.Text),
+                    NameONCard = txtNameOnCard.Text
+                };
+            }
         }
 
         private void FrmRestaurantPayment_Load(object sender, EventArgs e)

@@ -94,6 +94,9 @@
     <Compile Include="FrmRestaurantPayment.Designer.cs">
       <DependentUpon>FrmRestaurantPayment.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Booking.cs" />
+    <Compile Include="Models\Payment.cs" />
+    <Compile Include="Models\Restaurants.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmInformationTracksAndRecords.resx">

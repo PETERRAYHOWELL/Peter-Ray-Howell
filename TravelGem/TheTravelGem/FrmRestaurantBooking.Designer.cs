@@ -101,7 +101,6 @@ namespace TheTravelGem
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1142, 1060);
             this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // ValiLastName
             // 
@@ -175,8 +174,6 @@ namespace TheTravelGem
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(434, 1059);
             this.panel2.TabIndex = 0;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));

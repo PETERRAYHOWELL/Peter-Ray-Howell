@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using TheTravelGem.Models;
 using System.Drawing;
 using System.Linq;
 using System.Net.Mail;
@@ -252,16 +253,26 @@ namespace TheTravelGem
         private void BtnReserve_Click(object sender, EventArgs e)
         {
             ValidateForm();
+            if(string.IsNullOrWhiteSpace(ValiEmail.Text)&&
+                string.IsNullOrWhiteSpace(ValiFirstName.Text)&&
+                string.IsNullOrWhiteSpace(ValiLastName.Text)&&
+                string.IsNullOrWhiteSpace(ValiNumberOfGuest.Text)&&
+                string.IsNullOrWhiteSpace(ValiPhoneNumber.Text))
+            {
+                //To be Saved in a Database 
+                Booking NewBooking = new Booking
+                {
+                    Created = DateTime.Now,
+                    FirstName = TbFirstName.Text,
+                    LastName = TbLastName.Text,
+                    Email = TbEmail.Text,
+                    NumberOfGuest = Int32.Parse(TbNumberOfGuest.Text),
+                    PhoneNumber = TbPhone.Text
+
+                };
+            }
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+      
     }
 }
